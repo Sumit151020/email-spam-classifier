@@ -1,6 +1,6 @@
 # Email/SMS Spam Classifier
 
-An NLP and machine learning project that classifies SMS messages as **spam** or **ham (legitimate)**. The notebook explores the dataset, preprocesses message text, visualizes word patterns, converts text into TF-IDF features, compares multiple classifiers, and saves a Multinomial Naive Bayes model with its TF-IDF vectorizer.
+A machine learning project that classifies SMS/Email messages as **spam** or **ham (legitimate)**. The notebook explores the dataset, preprocesses message text, visualizes word patterns, converts text into TF-IDF features, compares multiple classifiers, and saves a Multinomial Naive Bayes model with its TF-IDF vectorizer.
 
 ## Project Overview
 
@@ -172,8 +172,3 @@ This snippet assumes `transform_text`, `vectorizer`, and `model` have already be
 ## Disclaimer
 
 This project is intended for educational purposes. Predictions can be wrong; do not treat a message as safe solely because this model labels it as ham.
-
-## Author
-
-**Your Name**  
-GitHub: `https://github.com/YOUR_USERNAME`
